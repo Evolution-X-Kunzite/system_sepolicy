@@ -2220,6 +2220,8 @@ full_treble_only(`
     -shell
     userdebug_or_eng(`-simpleperf_boot')
     -system_executes_vendor_violators
+    -platform_app_36
+    -traced_perf # library/binary access for symbolization
     -traced_perf # library/binary access for symbolization
     -ueventd # reads /vendor/ueventd.rc
     -vold # loads incremental fs driver
